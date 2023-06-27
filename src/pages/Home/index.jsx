@@ -8,17 +8,16 @@ import logo from "../../images/Rustic_Printed-removebg-preview.png";
 // import dandara from "../../images/capa_dandara.jpeg";
 // import abdias from "../../images/abdias-do-Nascimento.jpg";
 import "./styles.css";
-
+import { FaSearch } from "react-icons/fa";
 import { Footer } from "../../components/footer";
 import { useEffect, useState } from "react";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../../services/firebaseConfig";
 
 export const Home = () => {
-
   const [cards, setCards] = useState([]);
 
-  useEffect (() => {
+  useEffect(() => {
     async function fetchCards() {
       const querySnapshot = await getDocs(collection(db, "honored"));
       const cardsList = [];
@@ -30,7 +29,6 @@ export const Home = () => {
 
     fetchCards();
   }, []);
-  
 
   const [busca, setBusca] = useState("");
 
@@ -56,13 +54,16 @@ export const Home = () => {
       </div>
       <div>
         <h1>Conheça algumas pessoas em destaque</h1>
-        <i class="fa fa-search"></i>
+        <div className="search">
+          <FaSearch size={24} color="gray" className="icon" />
           <input
             type="text"
             onChange={(e) => setBusca(e.target.value)}
             value={busca}
             placeholder="Pesquisar"
           />
+        </div>
+
         <div className="peopleCardsHome">
           {peopleFiltered.map((card) => {
             return (

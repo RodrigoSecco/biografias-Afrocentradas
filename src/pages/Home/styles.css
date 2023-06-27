@@ -60,3 +60,12 @@ input {
   font-size: 25px;
   color: white;
 }
+
+.search {
+  display: flex;
+  margin-left: 30rem;
+}
+
+.icon {
+  margin-right: 8px;
+}

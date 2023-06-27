@@ -1,8 +1,18 @@
-import { addDoc, collection, deleteDoc, doc, query, where, getDocs } from "firebase/firestore";
+import {
+  addDoc,
+  collection,
+  deleteDoc,
+  doc,
+  query,
+  where,
+  getDocs,
+} from "firebase/firestore";
 import { db } from "../../services/firebaseConfig";
 import "./styles.css";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { FiHeart } from "react-icons/fi";
+import { FaHeart } from "react-icons/fa";
 
 export const Card = ({ image, name, description }) => {
   const [liked, setLiked] = useState(false);
@@ -27,7 +37,9 @@ export const Card = ({ image, name, description }) => {
 
   async function unfavorite() {
     try {
-      const querySnapshot = await getDocs(query(collection(db, "favorites"), where("name", "==", name)));
+      const querySnapshot = await getDocs(
+        query(collection(db, "favorites"), where("name", "==", name))
+      );
       querySnapshot.forEach(async (doc) => {
         await deleteDoc(doc.ref);
       });
@@ -40,7 +52,9 @@ export const Card = ({ image, name, description }) => {
 
   useEffect(() => {
     const checkLiked = async () => {
-      const querySnapshot = await getDocs(query(collection(db, "favorites"), where("name", "==", name)));
+      const querySnapshot = await getDocs(
+        query(collection(db, "favorites"), where("name", "==", name))
+      );
       updateLiked(!querySnapshot.empty);
     };
     checkLiked();
@@ -53,10 +67,12 @@ export const Card = ({ image, name, description }) => {
       <p>{description}</p>
       {!liked ? (
         <button className="likeButton" onClick={favorite}>
+          <FaHeart size={24} color="red" className="icon2" />
           Favoritar
         </button>
       ) : (
         <button className="unlikeButton" onClick={unfavorite}>
+          <FiHeart size={24} color="red" className="icon2" />
           Remover
         </button>
       )}
