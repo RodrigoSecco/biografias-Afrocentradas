@@ -1,40 +1,41 @@
 .navbarClass {
-    background-color: rgba(38, 16, 49, 0.81);
-    display: flex;
-    width: 100%;
+  background-color: rgba(38, 16, 49, 0.81);
+  display: flex;
+  width: 100%;
 }
 
 .ulNavbar {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    margin-left: 100px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-left: 100px;
 }
 
 #imgLogoHome {
-    height: 100px;
+  height: 100px;
 }
 
 .liNavbar {
-    margin-right: 40px;
+  margin-right: 40px;
 }
 
 .liNavbar a {
-    color: aliceblue;
-    text-decoration: none;
-    font-size: 20px;
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 #buttonLoginHome {
-    width: 100px;
-    margin-left: 40%;
+  width: 100px;
+  margin-left: 40%;
 }
 
 .liNavbar a:hover {
- color: orange;
+  color: orange;
 }
 
-.loginFormBtn a{
-    text-decoration: none;
-    color: white;
+.loginFormBtn a {
+  text-decoration: none;
+  color: white;
 }

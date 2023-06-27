@@ -10,10 +10,12 @@ import abdias from "../../images/abdias-do-Nascimento.jpg";
 import "./styles.css";
 import honoredPeople from "./people.json";
 import { Footer } from "../../components/footer";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { Loader } from "../../components/loader";
 
 export const Home = () => {
   const [busca, setBusca] = useState("");
+  const [myObject, setMyObject] = useState(null);
 
   const peopleFiltered = honoredPeople.honoredPeople.filter((person) =>
     person.name.toLocaleLowerCase().includes(busca.toLocaleLowerCase())
@@ -27,6 +29,22 @@ export const Home = () => {
     dandara: dandara,
     abdias: abdias,
   };
+
+  useEffect(() => {
+    fetch("./people.json")
+      .then((response) => response.json())
+      .then((data) => setMyObject(data))
+      .catch((error) => console.log(error));
+  }, []);
+
+  const updateMyObject = (newObject) => {
+    setMyObject(newObject);
+  };
+
+  // if (!myObject) {
+  //   return <Loader />;
+  // }
+
   return (
     <div className="listCardsHome">
       <Navbar />
@@ -61,7 +79,8 @@ export const Home = () => {
                 image={image}
                 name={card.name}
                 description={card.description}
-                curtir="Curtir"
+                myObject={honoredPeople}
+                updateMyObject={updateMyObject}
               />
             );
           })}

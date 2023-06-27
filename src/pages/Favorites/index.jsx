@@ -29,17 +29,17 @@ export const Favorites = () => {
         <div className="peopleCardsHome">
           {honoredPeople.honoredPeople.map((card, index) => {
             const image = imageMap[card.image] || null;
-            //if (favoritos[index] === card.name) {
-            return (
-              <Card
-                key={index}
-                image={image}
-                name={card.name}
-                description={card.description}
-                curtir="Descurtir"
-              />
-            );
-            //}
+            if (card.favorite) {
+              return (
+                <Card
+                  key={index}
+                  image={image}
+                  name={card.name}
+                  description={card.description}
+                  //curtir="Descurtir"
+                />
+              );
+            }
           })}
         </div>
       </div>

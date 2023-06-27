@@ -4,6 +4,7 @@
       "index": 0,
       "image": "carolina",
       "name": "Carolina Maria",
+      "favorite": true,
       "longDescription": "Carolina Maria de Jesus é uma das figuras mais emblemáticas da literatura brasileira. Sua imagem representa uma mulher negra de expressão serena. Ela ganhou destaque com a publicação do seu livro Quarto de Despejo em 1960. A obra é um retrato fiel e impactante da vida de Carolina, uma mulher negra e pobre que viveu nas favelas de São Paulo nos anos 50. Carolina Maria de Jesus mostrou, por meio de sua escrita poderosa, a dura realidade enfrentada pela população marginalizada no Brasil.",
       "description": "Carolina Maria de Jesus é uma das figuras mais emblemáticas da literatura brasileira. Seu livro Quarto de Despejo, publicado em 1960, é um retrato fiel e impactante da vida de uma mulher negra e pobre que viveu nas favelas de São Paulo nos anos 50.",
       "life": "Data de nascimento: 14 de março de 1914, Data de morte: 13 de fevereiro de 1977"
@@ -12,6 +13,7 @@
       "index": 1,
       "image": "marielle",
       "name": "Marielle Franco",
+      "favorite": false,
       "longDescription": "Marielle Franco, representada por sua imagem, foi uma socióloga e política brasileira. Seu retrato mostra uma mulher forte e determinada. Marielle se destacou como vereadora do Rio de Janeiro e como uma defensora incansável dos direitos humanos. Ela lutou pelos direitos das mulheres, da população negra e das comunidades marginalizadas. Marielle Franco foi uma voz ativa contra a violência policial, denunciando abusos e promovendo a justiça social. Infelizmente, Marielle foi brutalmente assassinada em 2018, mas seu legado continua inspirando e fortalecendo a luta por igualdade e justiça.",
       "description": "Socióloga e política, Marielle Franco foi vereadora do Rio de Janeiro e uma defensora incansável dos direitos humanos. Ela lutou pelos direitos das mulheres, da população negra e das comunidades marginalizadas, sendo uma voz ativa contra a violência policial.",
       "life": "Data de nascimento: 27 de julho de 1979, Data de morte: 14 de março de 2018"
@@ -20,6 +22,7 @@
       "index": 2,
       "image": "miltom",
       "name": "Milton Santos",
+      "favorite": false,
       "longDescription": "Milton Santos, representado por sua imagem, foi um renomado geógrafo e intelectual brasileiro. Seu retrato reflete um homem pensativo e observador. Ele se destacou como um dos principais pensadores do século XX, contribuindo para a compreensão da geografia humana e social. Milton Santos analisou as desigualdades espaciais e a exclusão social no Brasil e no mundo, fornecendo insights profundos sobre a estrutura socioespacial do país. Seu trabalho continua sendo referência para estudiosos e pesquisadores, inspirando uma visão mais crítica e inclusiva da geografia.",
       "description": "Geógrafo e intelectual, Milton Santos foi um dos principais pensadores brasileiros do século XX. Ele contribuiu para a compreensão da geografia humana e social, analisando as desigualdades espaciais e a exclusão no Brasil e no mundo.",
       "life": "Data de nascimento: 3 de maio de 1926, Data de morte: 24 de junho de 2001"
@@ -28,6 +31,7 @@
       "index": 3,
       "image": "machado",
       "name": "Machado de Assis",
+      "favorite": false,
       "longDescription": "Machado de Assis, representado por sua imagem, foi um dos maiores escritores da literatura brasileira. Seu retrato mostra um homem de olhar penetrante e expressão marcante. Machado de Assis foi o primeiro presidente da Academia Brasileira de Letras e deixou um legado literário vasto e significativo. Suas obras, como Memórias Póstumas de Brás Cubas e Dom Casmurro, exploraram temas complexos como a psicologia humana, as relações sociais e as contradições da sociedade brasileira. A genialidade de Machado de Assis e sua escrita sofisticada continuam a encantar leitores até os dias atuais.",
       "description": "Reconhecido como um dos maiores escritores da literatura brasileira, Machado de Assis foi o primeiro presidente da Academia Brasileira de Letras. Ele é conhecido por obras como Memórias Póstumas de Brás Cubas e Dom Casmurro.",
       "life": "Data de nascimento: 21 de junho de 1839, Data de morte: 29 de setembro de 1908"
@@ -36,6 +40,7 @@
       "index": 4,
       "image": "dandara",
       "name": "Dandara dos Palmares",
+      "favorite": false,
       "longDescription": "Dandara dos Palmares é representada por sua imagem como uma guerreira corajosa. Ela foi uma líder quilombola durante o período colonial brasileiro. Dandara, esposa de Zumbi dos Palmares, desempenhou um papel fundamental na defesa do Quilombo dos Palmares contra a opressão colonial. Seu retrato nos lembra da resistência e da luta dos povos negros contra a escravidão e a injustiça. Dandara é um símbolo de coragem e determinação, uma inspiração para aqueles que lutam por liberdade e igualdade.",
       "description": "Dandara foi uma guerreira e líder quilombola durante o período colonial brasileiro. Esposa de Zumbi dos Palmares, ela desempenhou um papel fundamental na defesa do Quilombo dos Palmares contra a opressão colonial.",
       "life": "Não há registros precisos sobre a data de nascimento ou morte de Dandara dos Palmares, uma vez que ela viveu durante o período colonial brasileiro."
@@ -44,6 +49,7 @@
       "index": 5,
       "image": "abdias",
       "name": "Abdias do Nascimento",
+      "favorite": false,
       "longDescription": "Abdias do Nascimento, representado por sua imagem, foi um artista, político e ativista brasileiro. Seu retrato transmite seriedade e comprometimento. Abdias do Nascimento desempenhou um papel central na luta pelos direitos dos afro-brasileiros. Ele fundou o Teatro Experimental do Negro, uma importante iniciativa para promover a representatividade e valorização da cultura negra no Brasil. Abdias foi um dos pioneiros na luta pela igualdade racial, defendendo a identidade e a história afro-brasileira. Seu trabalho influenciou gerações de ativistas e sua voz continua ressoando na busca por um país mais inclusivo e igualitário.",
       "description": "Artista, político e ativista, Abdias do Nascimento foi uma figura central na luta pelos direitos dos afro-brasileiros. Ele fundou o Teatro Experimental do Negro e foi um dos pioneiros na valorização da cultura e da identidade negra no Brasil.",
       "life": "Data de nascimento: 14 de março de 1914, Data de morte: 23 de maio de 2011"
